@@ -1,0 +1,1 @@
+console.log("Now compiling the code without using JS compiler!!")
