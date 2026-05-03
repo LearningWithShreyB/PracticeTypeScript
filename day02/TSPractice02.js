@@ -1,0 +1,1 @@
+console.log("TypeScript be like---Swagat nahi karoge hamara!!");
