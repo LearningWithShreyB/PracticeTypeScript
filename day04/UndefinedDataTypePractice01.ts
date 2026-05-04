@@ -27,3 +27,8 @@ console.log("The first value is:", value_2);
 console.log("The first data type value is:", typeof(value_2));
 console.log("The second value is:", value_3);
 console.log("The second data type value is:", typeof(value_3));
+
+console.log("Program where we write undefined datatype and also defined it undefined");
+let value_4:undefined=undefined;
+console.log("The value is:", value_4);
+console.log("The data type value is:", typeof(value_4));
