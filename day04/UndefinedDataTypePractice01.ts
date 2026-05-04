@@ -19,3 +19,11 @@ function my_undefined()
 }
 let result=my_undefined();
 console.log("The value is:", result);
+
+console.log("Program where we differentiate between null and undefined");
+let value_2=null;
+let value_3;
+console.log("The first value is:", value_2);
+console.log("The first data type value is:", typeof(value_2));
+console.log("The second value is:", value_3);
+console.log("The second data type value is:", typeof(value_3));
