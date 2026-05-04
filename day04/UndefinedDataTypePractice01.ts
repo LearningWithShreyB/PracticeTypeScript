@@ -11,3 +11,11 @@ console.log("Program where we write undefined datatype");
 let value_1:undefined;
 console.log("The value is:", value_1);
 console.log("The data type value is:", typeof(value_1));
+
+
+function my_undefined()
+{
+    console.log("I'm inside a funxtion which is undefined");
+}
+let result=my_undefined();
+console.log("The value is:", result);
