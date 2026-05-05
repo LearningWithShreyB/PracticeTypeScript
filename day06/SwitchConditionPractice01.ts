@@ -2,7 +2,7 @@ export{}
 
 console.log("**** Print the corresponding month name for a given month number ****");
 
-let month:number=21;
+let month:number=2;
 
 console.log(`The month number entered is ${month}`);
 
