@@ -1,6 +1,6 @@
 export { }
 
-console.log("**** heck if a number is divisible by both 2 and 3 ****");
+console.log("**** Check if a number is divisible by both 2 and 3 ****");
 let num1: number = 85;
 console.log('The given number is: ' + num1);
 
