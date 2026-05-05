@@ -5,6 +5,9 @@ console.log("----- OPERATORS IN TYPESCRIPT -----");
 let x: number = 10;
 let x1: number = 10;
 
+console.log("The value of x is:",x);
+console.log("The value of x1 is:",x1);
+
 console.log("\n--- Assignment Operators ---");
 
 x += 5; 
