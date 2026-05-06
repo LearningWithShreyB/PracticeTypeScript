@@ -2,7 +2,7 @@ export { }
 
 console.log("**** Practicing While loop ****");
 
-console.log("\n**** Reverse a given number ****");
+console.log("\n**** Check if a number is a palindrome ****");
 
 let originalNumber: number = 987656789;
 let numberToReversed: number = originalNumber;
