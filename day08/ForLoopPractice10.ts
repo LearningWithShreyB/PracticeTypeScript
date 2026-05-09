@@ -1,16 +1,7 @@
 export { }
 console.log("**** Practicing For loop ****");
 
-console.log("\n**** Print Sum of Even Numbers between 1 and 20 ****");
-
-/* let sum: number = 0;
-
-for (let i: number = 1; i <= 20; i++) {
-    sum = sum + i;
-}
-
-console.log(sum);
- */
+console.log("\n**** Print Sum of Odd Numbers between 1 and 20 ****");
 
 let sum: number = 0;
 
@@ -18,7 +9,7 @@ console.log("\nThe result is: ");
 
 for (let i: number = 1; i <= 20; i++) {
 
-    if (i % 2 === 0) {
+    if (i % 2 !== 0) {
         sum = sum + i;
     }
 }

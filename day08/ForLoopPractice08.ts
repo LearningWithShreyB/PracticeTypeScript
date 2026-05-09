@@ -5,6 +5,8 @@ console.log("\n**** Print Prime Numbers between 1 and 50 ****");
 
 let num: number = 500;
 
+console.log("\nThe result is: ");
+
 for (let i: number = 1; i <= num; i++) {
 let isPrime: boolean = true;
 
