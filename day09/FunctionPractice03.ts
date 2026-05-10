@@ -4,9 +4,9 @@ console.log("**** Practicing Named Functions ****");
 
 console.log("\n**** Named function with parameters and return type ****");
 
-function f2(a: number, b: number): number {
-    return a ** b;
+function f3(a: number, b: string): string {
+    return `Hello ${b}, Congratulations on securing ${a}% in boards!!`
 }
 
-let res: number = f2(2, 5);
-console.log('The result is:',res);
+
+console.log(f3(95,'Harsh'));
