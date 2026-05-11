@@ -10,7 +10,7 @@ function f1(a: number, b?: number): string;
 
 function f1(a: number, b: number, c?: number): string;
 
-function f1(a: number, b: number, c: number): string {
+function f1(a: number, b?: number, c?: number): string {
     if (b === undefined) {
         return `The square of ${a} is ${a * a}`;
     }
