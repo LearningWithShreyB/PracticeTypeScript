@@ -2,10 +2,10 @@ export { }
 
 console.log("**** Practicing Named Functions ****");
 
-console.log("\n**** Anonymous function with No Parameters and No Return Type ****");
+console.log("\n**** Anonymous function with Parameters and Return Type ****");
 
-let greet = function (): void {
-    console.log("Hello there, Keep thrive and learn!!");
+let marks = function (a: number, b: string): string {
+    return `Congratulations ${b} on getting ${a}%`;
 }
 
-greet();
+console.log(marks(90, 'SB'));
