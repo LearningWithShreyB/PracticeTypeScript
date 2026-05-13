@@ -2,7 +2,7 @@ export { }
 
 console.log("**** Practicing Array Methods ****");
 
-console.log("\n**** Splice method by ony adding****");
+console.log("\n**** Splice method by removing/adding****");
 
 let fruits: Array<string> = ['apple', 'mango', 'grapes', 'pear', 'melon'];
 
