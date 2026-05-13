@@ -2,7 +2,7 @@ export { }
 
 console.log("**** Practicing Array Methods ****");
 
-console.log("\n**** UnShift method ****");
+console.log("\n**** Slice method ****");
 
 let fruits: Array<string> = ['apple', 'mango', 'grapes', 'pear', 'melon'];
 
@@ -14,6 +14,6 @@ let m1 = numbers.slice(3,5);
 console.log("slice element:", m1);
 
 console.log("\n The result of second set is:");
-let m2 = fruits.slice(0,5);
+let m2 = fruits.slice(0,3);
 
 console.log("slice element:", m2);
