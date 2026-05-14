@@ -19,15 +19,8 @@ console.log("Original Array:", numbers);
 console.log("Updated Array:", arr01);
 
 
+console.log("\nCount total elements in an array");
+let arr02 = fruits.reduce((count,value) => count +1,0)
 
-
-console.log("\nGetting the elements from Numbers array by doubling only the odd numbers");
-let arr03 = numbers.filter((value) => {
-    if (value % 2 !== 0) {
-        value * 2;
-    }
-    return value
-})
-
-console.log("Original Array:", numbers);
-console.log("Updated Array:", arr03);
+console.log("Original Array:", fruits);
+console.log("Updated Array:", arr02);
