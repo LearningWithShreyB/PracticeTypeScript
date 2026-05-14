@@ -25,15 +25,12 @@ console.log("Original Array:", fruits);
 console.log("Updated Array:", arr02);
 
 
-console.log("\nGetting the elements from Numbers array by doubling only the odd numbers");
-let arr03 = numbers.filter((value) => {
-    if (value % 2 !== 0) {
-        value * 2;
-    }
-    return value
-})
+console.log("\nGetting only odd numbers and doubling them");
+
+let arr03 = numbers
+    .filter((value) => value % 2 !== 0)
+    .map((value) => value * 2);
 
 console.log("Original Array:", numbers);
 console.log("Updated Array:", arr03);
-
 
