@@ -19,4 +19,4 @@ console.log("Is existed?", arr01);
 console.log("\nAny negative numbers?");
 let arr02 = numbers.some((value) => value<0)
 
-console.log("Is existed?", arr01);
+console.log("Is existed?", arr02);
