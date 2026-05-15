@@ -11,12 +11,11 @@ let res10: string = fruits02.toLowerCase();
 console.log(`The result is ${res10}`);
 
 
-console.log("\n**** Remove duplicates from an array using filter and indexOf ****");
+console.log("\n**** Get a character at a specific index using charAt() ****");
 
-let res06: number[] = numbers.filter((value, index) => numbers.indexOf(value) === index)
+let res11: string = fruits02.charAt(6);
 
-console.log(`The original array is ${numbers}`);
-console.log(`The updated array is ${res06}`);
+console.log(`The result is ${res11}`);
 
 console.log("\n**** Reverse an array ****");
 
