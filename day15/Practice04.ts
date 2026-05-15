@@ -17,15 +17,14 @@ let res06:number[]=numbers.filter((value,index)=> numbers.indexOf(value)===index
 console.log(`The original array is ${numbers}`);
 console.log(`The updated array is ${res06}`);
 
-/*console.log("\n**** Filter out even numbers from an array using filter ****");
+console.log("\n**** Reverse an array ****");
 
-let res02:number[]=numbers.filter(value=>value%2===0);
+let res07:number[]=numbers.reverse();
 
-console.log(`The original array is ${numbers}`);
-console.log(`The updated array is ${res02}`);
+console.log(`The updated array is ${res07}`);
 
 
-console.log("\n**** Find the sum of all numbers using reduce ****");
+/*console.log("\n**** Find the sum of all numbers using reduce ****");
 
 let sum:number=0
 let res03:number=numbers.reduce((sum,value)=>sum+=value,0);
