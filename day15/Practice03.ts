@@ -25,14 +25,15 @@ let res01:number[]=numbers.map(value=> value*2)
 console.log(`The original array is ${numbers}`);
 console.log(`The updated array is ${res01}`);
 
-/* console.log("\n**** Find the index of a specific element using indexOf ****");
+console.log("\n**** Filter out even numbers from an array using filter ****");
 
-let res01:number=fruits.indexOf('pear');
+let res02:number[]=numbers.filter(value=>value%2===0);
 
-console.log(`The result is ${res01}`);
+console.log(`The original array is ${numbers}`);
+console.log(`The updated array is ${res02}`);
 
 
-console.log("\n**** Check if an element exists in an array using includes ****");
+/*console.log("\n**** Check if an element exists in an array using includes ****");
 
 let res02:boolean=fruits.includes('pear');
 
