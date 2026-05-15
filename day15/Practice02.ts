@@ -24,11 +24,11 @@ let res01:number=fruits.indexOf('pear');
 console.log(`The result is ${res01}`);
 
 
-console.log("\n**** Add elements at the beginning of an array using unshift ****");
+console.log("\n**** Check if an element exists in an array using includes ****");
 
-numbers.unshift(1);
+let res02:number=fruits.includes('pear');
 
-console.log(`The result is ${numbers}`);
+console.log(`The result is ${res02}`);
 
 
 console.log("\n**** Concatenate two arrays using concat ****");
