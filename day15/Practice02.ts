@@ -26,13 +26,13 @@ console.log(`The result is ${res01}`);
 
 console.log("\n**** Check if an element exists in an array using includes ****");
 
-let res02:number=fruits.includes('pear');
+let res02:boolean=fruits.includes('pear');
 
 console.log(`The result is ${res02}`);
 
 
-console.log("\n**** Concatenate two arrays using concat ****");
+console.log("\n**** Convert an array to a string using toString ****");
 
-let total:(number|string)[]=numbers.concat(fruits);
+let res03:string=fruits.toString();
 
-console.log(`The result is ${total}`);
+console.log(`The result is ${res03}`);
