@@ -2,16 +2,16 @@ export { }
 
 console.log("\n**** Extract a subarray using slice ****");
 
-let numbers:Array<number|string>=[1,2,3,4,5];
-let fruits:(number|string)[]=['apple','mango','pear','pineapple'];
-let slice:(number|string)[]=numbers.slice(1,3);
+let numbers: Array<number | string> = [1, 2, 3, 4, 5];
+let fruits: (number | string)[] = ['apple', 'mango', 'pear', 'pineapple'];
+let slice: (number | string)[] = numbers.slice(1, 3);
 
 console.log(`The result is ${slice}`);
 
 
 console.log("\n**** Insert and delete elements using splice ****");
 
-let splice:(number|string)[]=numbers.splice(2,1,4);
+let splice: (number | string)[] = numbers.splice(2, 1, 4);
 
 console.log(`The result is ${splice}`);
 console.log(`The updated array is ${numbers}`);
@@ -19,20 +19,20 @@ console.log(`The updated array is ${numbers}`);
 
 console.log("\n**** Find the index of a specific element using indexOf ****");
 
-let res01:number=fruits.indexOf('pear');
+let res01: number = fruits.indexOf('pear');
 
 console.log(`The result is ${res01}`);
 
 
 console.log("\n**** Check if an element exists in an array using includes ****");
 
-let res02:boolean=fruits.includes('pear');
+let res02: boolean = fruits.includes('pear');
 
 console.log(`The result is ${res02}`);
 
 
 console.log("\n**** Convert an array to a string using toString ****");
 
-let res03:string=fruits.toString();
+let res03: string = fruits.toString();
 
 console.log(`The result is ${res03}`);

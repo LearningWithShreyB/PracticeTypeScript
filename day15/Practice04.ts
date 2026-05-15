@@ -2,7 +2,7 @@ export { }
 
 console.log("\n**** Check if all elements are positive using every ****");
 
-let numbers:Array<number>=[1,2,3,4,5];
+let numbers:Array<number>=[1,2,3,4,5,5,6,1];
 let fruits:(number|string)[]=['apple','mango','pear','pineapple'];
 
 let res05:boolean=numbers.every(value=>value>0);
@@ -10,12 +10,12 @@ let res05:boolean=numbers.every(value=>value>0);
 console.log(`The result is ${res05}`);
 
 
-console.log("\n**** Create a new array by doubling the values using map ****");
+console.log("\n**** Remove duplicates from an array using filter and indexOf ****");
 
-let res01:number[]=numbers.map(value=> value*2)
+let res06:number[]=numbers.filter((value,index)=> numbers.indexOf(value)===index)
 
 console.log(`The original array is ${numbers}`);
-console.log(`The updated array is ${res01}`);
+console.log(`The updated array is ${res06}`);
 
 /*console.log("\n**** Filter out even numbers from an array using filter ****");
 
