@@ -3,7 +3,7 @@ export { }
 console.log("\n**** Extract a subarray using slice ****");
 
 let numbers:Array<number|string>=[1,2,3,4,5];
-let fruits:(number|string)[]=['apple','mango'];
+let fruits:(number|string)[]=['apple','mango','pear','pineapple'];
 let slice:(number|string)[]=numbers.slice(1,3);
 
 console.log(`The result is ${slice}`);
@@ -17,11 +17,11 @@ console.log(`The result is ${splice}`);
 console.log(`The updated array is ${numbers}`);
 
 
-console.log("\n**** Remove the first element from an array using shift. ****");
+console.log("\n**** Find the index of a specific element using indexOf ****");
 
-numbers.shift();
+let res01:number=fruits.indexOf('pear');
 
-console.log(`The result is ${numbers}`);
+console.log(`The result is ${res01}`);
 
 
 console.log("\n**** Add elements at the beginning of an array using unshift ****");
