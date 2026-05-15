@@ -42,8 +42,8 @@ console.log(`The original array is ${numbers}`);
 console.log(`The updated array is ${res03}`);
 
 
-/*console.log("\n**** Convert an array to a string using toString ****");
+console.log("\n**** Check if at least one element is even using some ****");
 
-let res03:string=fruits.toString();
+let res04:boolean=numbers.some(value=>value%2===0);
 
-console.log(`The result is ${res03}`); */
+console.log(`The result is ${res04}`);
