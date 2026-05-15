@@ -17,11 +17,11 @@ let res11: string = fruits02.charAt(6);
 
 console.log(`The result is ${res11}`);
 
-console.log("\n**** Reverse an array ****");
+console.log("\n**** Find the position of a word using indexOf() ****");
 
-let res07: number[] = numbers.reverse();
+let res12: number = fruits02.indexOf('l');
 
-console.log(`The updated array is ${res07}`);
+console.log(`The result is ${res12}`);
 
 
 console.log("\n**** Find the length of a string ****");
