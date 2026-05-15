@@ -24,16 +24,14 @@ let res07:number[]=numbers.reverse();
 console.log(`The updated array is ${res07}`);
 
 
-/*console.log("\n**** Find the sum of all numbers using reduce ****");
+console.log("\n**** Find the length of a string ****");
 
-let sum:number=0
-let res03:number=numbers.reduce((sum,value)=>sum+=value,0);
+let res08:number=numbers.length;
 
-console.log(`The original array is ${numbers}`);
-console.log(`The updated array is ${res03}`);
+console.log(`The length is ${res08}`);
 
 
-console.log("\n**** Check if at least one element is even using some ****");
+/*console.log("\n**** Check if at least one element is even using some ****");
 
 let res04:boolean=numbers.some(value=>value%2===0);
 
