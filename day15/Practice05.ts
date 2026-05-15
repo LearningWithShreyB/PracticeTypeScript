@@ -1,13 +1,14 @@
 export { }
 
-console.log("\n**** Check if all elements are positive using every ****");
-
 let numbers: Array<number> = [1, 2, 3, 4, 5, 5, 6, 1];
 let fruits: (string)[] = ['apple', 'mango', 'pear', 'pineapple'];
 
-let res05: boolean = numbers.every(value => value > 0);
+console.log("\n**** Convert a string to lowercase using toLowerCase ****");
 
-console.log(`The result is ${res05}`);
+let fruits02: string = 'Hello there!!';
+let res10: string = fruits02.toLowerCase();
+
+console.log(`The result is ${res10}`);
 
 
 console.log("\n**** Remove duplicates from an array using filter and indexOf ****");
@@ -36,4 +37,4 @@ console.log("\n**** Convert a string to uppercase using toUpperCase ****");
 let fruits01: string = 'Hello there!!';
 let res09: string = fruits01.toUpperCase();
 
-console.log(`The result is ${res09}`);
+console.log(`The length is ${res09}`);
