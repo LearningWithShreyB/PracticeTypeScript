@@ -24,11 +24,11 @@ let res12: number = fruits02.indexOf('l');
 console.log(`The result is ${res12}`);
 
 
-console.log("\n**** Find the length of a string ****");
+console.log("\n**** Check if a string includes a word using includes() ****");
 
-let res08: number = numbers.length;
+let res13: boolean = fruits.includes('guava');
 
-console.log(`The length is ${res08}`);
+console.log(`The result is ${res13}`);
 
 
 console.log("\n**** Convert a string to uppercase using toUpperCase ****");
