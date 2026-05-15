@@ -31,9 +31,28 @@ let res13: boolean = fruits.includes('guava');
 console.log(`The result is ${res13}`);
 
 
-console.log("\n**** Convert a string to uppercase using toUpperCase ****");
+console.log("\n**** Check if a string starts with a specific word using startsWith() ****");
 
-let fruits01: string = 'Hello there!!';
-let res09: string = fruits01.toUpperCase();
+let res14: boolean = fruits02.startsWith('guava');
 
-console.log(`The length is ${res09}`);
+console.log(`The result is ${res14}`);
+
+
+console.log("\n****  Check if a string ends with a specific word using endsWith() ****");
+
+let res15: boolean = fruits02.endsWith('!');
+
+console.log(`The result is ${res15}`);
+
+console.log("\n**** Replace a word in a sentence using replace() ****");
+
+let res16: string = fruits02.replace('Hello','Hey');
+
+console.log(`The result is ${res16}`);
+
+
+console.log("\n**** Split a sentence into words using split() and remove leading/trailing spaces using trim() ****");
+
+let res17: string[] = fruits02.split(' ');
+
+console.log(`The result is ${res17}`);
