@@ -21,3 +21,9 @@ console.log("\n**** Remove the first element from an array using shift. ****");
 numbers.shift();
 
 console.log(`The result is ${numbers}`);
+
+console.log("\n**** Add elements at the beginning of an array using unshif ****");
+
+numbers.unshift(1);
+
+console.log(`The result is ${numbers}`);
