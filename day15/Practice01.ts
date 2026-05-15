@@ -9,8 +9,15 @@ numbers.push(4,5);
 console.log(`The result is ${numbers}`);
 
 
-console.log("\n**** Remove the last element from an array using pop.  ****");
+console.log("\n**** Remove the last element from an array using pop. ****");
 
 numbers.pop();
+
+console.log(`The result is ${numbers}`);
+
+
+console.log("\n**** Remove the first element from an array using shift. ****");
+
+numbers.shift();
 
 console.log(`The result is ${numbers}`);
