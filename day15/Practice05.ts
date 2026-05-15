@@ -55,4 +55,11 @@ console.log("\n**** Split a sentence into words using split() and remove leading
 
 let res17: string[] = fruits02.split(' ');
 
+console.log("\nFor Split:")
 console.log(`The result is ${res17}`);
+
+console.log("\nFor Trim:")
+let str:string='  Hello   ';
+let res18: string = str.trim();
+
+console.log(`The result is ${res18}`);
