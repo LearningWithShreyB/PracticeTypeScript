@@ -33,14 +33,16 @@ console.log(`The original array is ${numbers}`);
 console.log(`The updated array is ${res02}`);
 
 
-/*console.log("\n**** Check if an element exists in an array using includes ****");
+console.log("\n**** Find the sum of all numbers using reduce ****");
 
-let res02:boolean=fruits.includes('pear');
+let sum:number=0
+let res03:number=numbers.reduce((sum,value)=>sum+=value,0);
 
-console.log(`The result is ${res02}`);
+console.log(`The original array is ${numbers}`);
+console.log(`The updated array is ${res03}`);
 
 
-console.log("\n**** Convert an array to a string using toString ****");
+/*console.log("\n**** Convert an array to a string using toString ****");
 
 let res03:string=fruits.toString();
 
