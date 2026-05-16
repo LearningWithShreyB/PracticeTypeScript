@@ -33,3 +33,9 @@ console.log(`The employee ID of the employee is ${employee["eid"]}`);
 console.log(`The salary of the employee is ${employee["salary"]}`);
 console.log(`The job of the employee is ${employee["job"]}`);
 console.log(`The overall details of the employee is ${employee["getDetails"]()}`);
+
+employee.name = 'Scott';
+employee["salary"] = 55000;
+console.log(`The updated name of the employee is ${employee["name"]}`);
+console.log(`The updated name of the employee is ${employee.salary}`);
+console.log(`The overall details of the employee is ${employee["getDetails"]()}`);
