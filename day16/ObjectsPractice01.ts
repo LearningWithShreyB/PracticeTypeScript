@@ -1,4 +1,4 @@
-export{}
+export { }
 
 console.log("**** Practicing Object in TypeScript ****");
 
@@ -6,12 +6,11 @@ console.log("\n**** Using 'object' type ****");
 
 let employee =
 {
-    name:"Shrey",
-    eid:101,
-    salary:50000,
-    job:'Sales Executive',
-    getDetails():string
-    {
+    name: "Shrey",
+    eid: 101,
+    salary: 50000,
+    job: 'Sales Executive',
+    getDetails(): string {
         return `${this.name} is working as ${this.job} having ${this.eid} and earning ${this.salary}`;
     }
 }

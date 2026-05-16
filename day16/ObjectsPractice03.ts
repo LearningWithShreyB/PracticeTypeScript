@@ -2,18 +2,29 @@ export { }
 
 console.log("**** Practicing Object in TypeScript ****");
 
-console.log("\n**** Using 'object' type ****");
+console.log("\n**** Inline Type Object ****");
 
-let employee =
+let employee:
+    {
+        name: string,
+        eid: number,
+        salary: number,
+        job: string,
+        getDetails: () => string
+    }
+    =
 {
-    name: "Shrey",
-    eid: 101,
-    salary: 50000,
-    job: 'Sales Executive',
+    name: "David",
+    eid: 102,
+    salary: 45000,
+    job: "Trainer",
     getDetails: function (): string {
         return `${this.name} is working as ${this.job} having ${this.eid} and earning ${this.salary}`;
     }
 }
+
+
+
 
 //Approach 1
 
