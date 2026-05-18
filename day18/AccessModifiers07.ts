@@ -2,33 +2,30 @@ export { }
 
 console.log("**** Practicing Access Modifiers Concept in TypeScript ****");
 
-console.log("\n**** Access Modifiers when parent class have protected method ****");
+console.log("\n**** Access Modifiers when child class have protected property ****");
 
 class Parent {
     a: string;
     b: number;
- 
-    constructor(a:string,b:number) {
-        this.a=a;
-        this.b=b;
+
+    constructor(a: string, b: number) {
+        this.a = a;
+        this.b = b;
     }
 
     res01(): void {
         console.log(`This is a res01() method from Parent class having values ${this.a} and ${this.b}`);
     }
-
-    protected m1():void{
-        console.log("This is a protected method from parent class");
-    }
 }
 
 class Child extends Parent {
-    c: number = 500;
+    protected c: number = 500;
     d: number = 700;
-    constructor(a:string,b:number,c:number,d:number) {
-        super(a,b);
-        this.c=c;
-        this.d=d;
+
+    constructor(a: string, b: number, c: number, d: number) {
+        super(a, b);
+        this.c = c;
+        this.d = d;
     }
 
     res02(): void {
@@ -39,33 +36,28 @@ class Child extends Parent {
         super.res01();
         console.log(`This is a res01() method from Child and Parent class having values ${this.a},${this.b},${this.c} and ${this.d}`);
     }
-    callParentMethod(): void {
-        this.m1();
-    }
 }
 
-let obj01 = new Child("SB",89,76,908);
+let obj01 = new Child("SB", 89, 76, 908);
 
 console.log(obj01.a);
 console.log(obj01.b);
-console.log(obj01.c);
+//console.log(obj01.c); 
 console.log(obj01.d);
 
 obj01.res01();
 obj01.res02();
-obj01.callParentMethod();
-//obj01.m1(); Not accesible
 
 
 console.log("\After Updation:")
 obj01.a = "VB";
 obj01.b = 5000;
-obj01.c = 2400;
+//obj01.c = 2400;  Not accessible
 obj01.d = 7800;
 
 console.log(obj01.a);
 console.log(obj01.b);
-console.log(obj01.c);
+//console.log(obj01.c); Not accessible
 console.log(obj01.d);
 obj01.res01();
 obj01.res02();
