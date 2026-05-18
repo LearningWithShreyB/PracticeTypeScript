@@ -2,7 +2,7 @@ export { }
 
 console.log("**** Practicing Access Modifiers Concept in TypeScript ****");
 
-console.log("\n**** Access Modifiers when child class have protected method ****");
+console.log("\n**** Access Modifiers when child class have private method ****");
 
 class Parent {
     a: string;
@@ -37,13 +37,13 @@ class Child extends Parent {
         console.log(`This is a res01() method from Child and Parent class having values ${this.a},${this.b},${this.c} and ${this.d}`);
     }
     
-    protected m1():void{
-        console.log("This is a protected method from child class");
+    private m1():void{
+        console.log("This is a private method from child class");
     }
 
     m2():void
     {
-        console.log("This is a m2() method from child class which is calling protected method");
+        console.log("This is a m2() method from child class which is calling private method");
         this.m1();
     }
 }
