@@ -35,7 +35,7 @@ class Child extends Parent {
     }
 
     res02(): void {
-        console.log(`This is a res01() method from Child class`);
+        console.log(`This is a res02() method from Child class`);
     }
 
     res01(): void {
