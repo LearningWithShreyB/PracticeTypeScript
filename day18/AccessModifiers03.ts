@@ -2,7 +2,7 @@ export { }
 
 console.log("**** Practicing Access Modifiers Concept in TypeScript ****");
 
-console.log("\n**** Access Modifiers when parent class have public method ****");
+console.log("\n**** Access Modifiers when child class have public property ****");
 
 class Parent {
     a: string;
@@ -16,15 +16,12 @@ class Parent {
     res01(): void {
         console.log(`This is a res01() method from Parent class having values ${this.a} and ${this.b}`);
     }
-
-    public m1():void{
-        console.log("This is a public method from parent class");
-    }
 }
 
 class Child extends Parent {
-    c: number = 500;
+    public c: number = 500;
     d: number = 700;
+
     constructor(a:string,b:number,c:number,d:number) {
         super(a,b);
         this.c=c;
@@ -50,7 +47,6 @@ console.log(obj01.d);
 
 obj01.res01();
 obj01.res02();
-obj01.m1();
 
 
 console.log("\After Updation:")

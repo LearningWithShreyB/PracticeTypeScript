@@ -2,7 +2,7 @@ export { }
 
 console.log("**** Practicing Access Modifiers Concept in TypeScript ****");
 
-console.log("\n**** Access Modifiers ****");
+console.log("\n**** Access Modifiers when parent class have public property ****");
 
 class Parent {
     public a: string;
