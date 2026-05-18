@@ -1,8 +1,8 @@
 export { }
 
-console.log("**** Practicing Inheritance Concept in TypeScript ****");
+console.log("**** Practicing Interface Concept in TypeScript ****");
 
-console.log("\n**** Inheritance with optional property ****");
+console.log("\n**** Interface with optional property ****");
 
 interface A1
 {
