@@ -6,6 +6,6 @@ import * as utils from "./ModulePractice01"
 
 console.log(`The variable value is ${utils.a}`);
 
-console.log(utils.m1());
+utils.m1();
 
 console.log(`The class implementation is ${utils.Length.len("Bye SB!!")}`);
